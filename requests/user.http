@@ -1,0 +1,28 @@
+POST http://localhost:3333/users
+Content-type: application/json
+
+{
+  "name": "Eduardo Braga",
+  "email": "dudu.braga2002@hotmail.com",
+  "password": "12345"
+}
+
+###
+GET http://localhost:3333/users 
+
+###
+GET http://localhost:3333/users/3 
+
+###
+PUT http://localhost:3333/users/2
+Content-type: application/json
+
+{
+  "name": "Yoha Braga",
+  "email": "yow.braga@gmail.com",
+  "password": "123458"
+}
+
+###
+DELETE  http://localhost:3333/users/5
+
